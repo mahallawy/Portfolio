@@ -54,7 +54,17 @@
               <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
               <hr class="my-4">
               <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-              <a id="portfolioButton" class="btn btn-lg" href="#" role="button">Learn more</a>
+              <!-- <a class="btn btn-lg portfolioButton" href="#videography" role="button">Videography and Edit</a>
+              <a class="btn btn-lg portfolioButton" href="#edit" role="button">Edit</a>
+              <a class="btn btn-lg portfolioButton" href="#motion" role="button">Motion Graphics</a> -->
+              <div class=" dropright btn-group ">
+                <button type="button" class="portfolioButton btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">Portfolio</button>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#videography">Videography and Edit</a>
+                  <a class="dropdown-item" href="#edit">Edit</a>
+                  <a class="dropdown-item" href="#motion">Motion Graphics</a>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-6">
@@ -65,10 +75,11 @@
     </section> 
     <!------------------------------- Main Body End ------------------------------------------------------->
     <!------------------------------- About Start ------------------------------------------------------->
-    <section id="about" class="d-flex">
-      <div class="container-fluid">
+    <section id="about">
+      <div class="container">
         <div class="row">
           <h1>About</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur officia exercitationem rerum illo assumenda sapiente eveniet, quasi quae quis ut quidem soluta asperiores debitis aperiam quas similique? Molestiae voluptas quidem esse assumenda soluta labore odit aliquam at, mollitia, perferendis iure minus repudiandae nobis necessitatibus iste doloribus perspiciatis ratione distinctio quibusdam.</p>
         </div>
       </div>    
     </section> 
@@ -76,8 +87,19 @@
     <!------------------------------- videography Start ------------------------------------------------------->
     <section id="videography">
       <div class="container">
-        <div class="row">
-          <h1>Videography and Edit</h1>
+        <h1>Videography and Edit</h1>
+        <div class="row videos">
+          
+          <div class="col-3">
+            <iframe src="https://www.youtube.com/embed/mlnSS-bnyRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-3">
+            <iframe src="https://www.youtube.com/embed/mlnSS-bnyRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-3">
+            <iframe src="https://www.youtube.com/embed/mlnSS-bnyRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
         </div>
       </div>    
     </section> 
